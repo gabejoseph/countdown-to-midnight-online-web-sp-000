@@ -14,6 +14,7 @@ def countdown(count)
 end
 
 def countdown_with_sleep(count)
+<<<<<<< HEAD
   until count == 0
     count -= 1
     sleep(1)
@@ -21,4 +22,9 @@ def countdown_with_sleep(count)
   if count == 0 
     return true
   end
+=======
+  # if  > 5
+  #   return true
+  # end
+>>>>>>> aee6c28dfdaafaaf4a02c2dd0f98b0248acb7090
 end
